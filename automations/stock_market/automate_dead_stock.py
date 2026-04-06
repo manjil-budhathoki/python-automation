@@ -60,12 +60,7 @@ def fetch_all_price_history(company_id, length=50):
 
 # Dictionary of companies: { "Company Name": "ID" }
 companies = {
-    "NIDC": "156",
-    "HATH": "46",
-    "KEBL": "154",
-    "JBNL": "331",
-    "JEFL": "326",
-    "GDBL.csv": "163"
+   "KSBBLD87": "1471"
 }
 
 # Fetch and save data for each company

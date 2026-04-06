@@ -18,10 +18,10 @@ column_map = {
 }
 
 # Process each JSON file in 'json/' folder
-for filename in os.listdir('json'):
+for filename in os.listdir('data/json'):
     if filename.endswith('.json'):
         company_name = filename.replace('.json', '')
-        json_path = os.path.join('json', filename)
+        json_path = os.path.join('data/json', filename)
         csv_path = os.path.join('missing', f'{company_name}.csv')
 
         # Read JSON

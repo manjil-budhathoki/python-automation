@@ -19,9 +19,8 @@ if not os.path.exists(TARGET_DIR):
     os.makedirs(TARGET_DIR)
 
 stock_list = [
-    "SIL","SMH", "SMHL", "SMJC", "SNLI", "SPARS", "SPDL", "SPIL", "SRBL", "SRLI", "SSHL", 
-    "SSIS", "STC", "SUBBL", "SWBBL", "SWMF", "SYFL", "TBBL", "TDBL", "TMDBL", "TNBL", "TPC", "TRH", "UAIL", "UFIL", "UFL", "UHEWA", "UIC", 
-    "ULBSL", "ULI", "UMB", "UMHL", "UMRH", "UNL", "UPCL", "UPPER", "USLB", "VLBS", "WDBL", "WNLB", "WOMI"
+"SMHL","SINDU","GCIL","SIKLES","SDESI","NFS","NABIL","OHL"
+
 ]
 
 def get_available_symbols():
